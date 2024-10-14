@@ -174,7 +174,7 @@ const Home = () => {
           <p className="text-lg text-gray-300 mb-8">
             Feel free to send us a message
           </p>
-          <a href="mailto:nfoddddd@beirut.iq">
+          <a href="mailto:info@hilal-dubai.iq">
             <button className="bg-white rounded-full hover:bg-gray-300 px-6 py-1 text-gray-800 font-semibold text-lg">
               Get Started
             </button>
