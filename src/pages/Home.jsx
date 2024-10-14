@@ -8,10 +8,10 @@ const Home = () => {
   const [selectedImage, setSelectedImage] = useState("");
 
   const staticImages = [
-    "/assets/IMG-20240929-WA0064.jpg",
-    "/assets/IMG-20240929-WA0070.jpg",
-    "/assets/IMG-20240929-WA0054.jpg",
-    "/assets/IMG-20240929-WA0062.jpg"
+    "/assets/IMG-20240929-WA0035.jpg",
+    "/assets/IMG-20240929-WA0039.jpg",
+    "/assets/IMG-20240929-WA0041.jpg",
+    "/assets/IMG-20240929-WA0046.jpg",
   ];
 
   const openModal = (image) => {
@@ -25,7 +25,7 @@ const Home = () => {
   };
 
   return (
-    <div className="bg-white font-tajawal" >
+    <div className="bg-white font-tajawal">
       {/* Main Section */}
       <section className="container mx-auto py-20">
         <div className="flex flex-col md:flex-row items-center justify-between">
@@ -34,12 +34,16 @@ const Home = () => {
             <div className="max-w-lg">
               <div className="h-1 w-10 bg-black mb-4"></div>
               <h1 className="font-bold text-4xl md:text-5xl mb-6">
-              Hilal Dubai General Trading Company Limited
+                Hilal Dubai General Trading Company Limited
               </h1>
-              <p
-                className="text-lg text-gray-700 mb-6"
-              >
-                A company specialized in selling clothing and beauty products, offering the latest trends at competitive prices. The company is headquartered in Baghdad and is committed to providing high quality products and excellent customer service.              </p>
+              <p className="text-lg text-gray-700 mb-6">
+                Hilal Dubai, based in Baghdad, specializes in selling a wide
+                range of electronic products such as routers, fiber optic
+                cables, laptops, and more. The company is dedicated to providing
+                the latest technological solutions to meet the needs of both
+                individuals and businesses, with a focus on quality and
+                reliability in all its products.
+              </p>
               <Link to={"/about"}>
                 <Button
                   color="black"
@@ -70,16 +74,20 @@ const Home = () => {
           <div className="w-full md:w-1/2 p-8 flex flex-col justify-center">
             <h2 className="text-5xl font-bold mb-6">About us</h2>
             <p className="text-gray-700 mb-8 text-lg">
-              We are a company specialized in clothing and cosmetics trading, headquartered in Baghdad. We offer a wide range of the latest fashion and personal care products, committed to providing high quality products at competitive prices to meet the needs of all our customers. We always strive to provide a distinctive shopping experience and exceptional customer service to ensure your satisfaction and trust.            </p>
+              Hilal Dubai is an electronics company based in Baghdad, offering a
+              range of products including routers, fiber optic cables, laptops,
+              and more. We are committed to providing high-quality technology
+              solutions for individuals and businesses.
+            </p>
             {/* <Button className="bg-lime-300 text-gray-800 rounded-full w-40 py-3 hover:bg-lime-400 transition-colors">
               Shop now
             </Button> */}
           </div>
-          <div className="w-full md:w-1/2 flex justify-center items-center p-8">
+          <div className="w-full md:w-1/2 flex justify-center items-center p-">
             <img
-              src="/undraw_profile_re_4a55.svg"
+              src="/assets/IMG-20240929-WA0046.jpg"
               alt="Minimalist room design"
-              className="w-full max-w-md h-auto object-contain transition-transform duration-300 hover:scale-105"
+              className="w-full max-w-md h-auto object-contain transition-transform duration-300 hover:scale-105 rounded-lg"
             />
           </div>
         </div>
@@ -155,25 +163,19 @@ const Home = () => {
       <section
         className="relative bg-cover bg-center h-80 flex items-center"
         style={{
-          backgroundImage: "url('/assets/IMG-20240929-WA0069.jpg')",
+          backgroundImage: "url('/assets/IMG-20240929-WA0045.jpg')",
         }}
       >
         <div className="absolute inset-0 bg-black opacity-60"></div>
         <div className="relative z-10 text-center w-full">
-          <h1
-            className="text-3xl md:text-5xl font-bold text-white mb-4"
-          >
+          <h1 className="text-3xl md:text-5xl font-bold text-white mb-4">
             Contact us
           </h1>
-          <p
-            className="text-lg text-gray-300 mb-8"
-          >
+          <p className="text-lg text-gray-300 mb-8">
             Feel free to send us a message
           </p>
           <a href="mailto:nfoddddd@beirut.iq">
-            <button
-              className="bg-white rounded-full hover:bg-gray-300 px-6 py-1 text-gray-800 font-semibold text-lg"
-            >
+            <button className="bg-white rounded-full hover:bg-gray-300 px-6 py-1 text-gray-800 font-semibold text-lg">
               Get Started
             </button>
           </a>

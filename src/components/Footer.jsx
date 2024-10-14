@@ -15,10 +15,10 @@ const Footer = () => {
           />
           <div>
             <h3 className="text-xl font-bold text-white mr-2">
-              Beirut Road Trading Company - Limited Liability
+              Hilal Dubai General Trading Company Limited
             </h3>
             <p className="text-sm text-gray-400 mr-2">
-              © 2024 Beirut Road Trading Company - Limited Liability. All Rights Reserved.
+              © 2024 Hilal Dubai General Trading Company Limited. All Rights Reserved.
             </p>
           </div>
         </div>
@@ -27,13 +27,13 @@ const Footer = () => {
 
         <div className="flex  flex-col items-end">
           <div className="flex items-center gap-3 mt-3 ">
-            <a href="tel:123456789 964+">+964 07510851350</a>
+            <a href="tel:123456789 964+">+964 0750000000</a>
             <FaPhone />
           </div>
 
           <div className="flex items-center gap-3 mt-3">
             <a href="mailto:info@beirut-road.iq">
-              <p>info@beirut-road.iq</p>
+              <p>info@Hilal-dubai.iq</p>
             </a>
             <MdEmail />
           </div>

@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 
 const About = () => {
   return (
@@ -16,7 +16,17 @@ const About = () => {
           </h1>
         </div>
         <p className="text-lg text-gray-700 leading-relaxed max-w-2xl mx-auto text-center md:text-left">
-          We are a company specialized in clothing and cosmetics trading, keen to provide a diverse range of the latest fashion trends and beauty products that meet the needs of all customers. We believe in the importance of quality and carefully select our products to ensure customer satisfaction. We also strive to provide an easy and comfortable shopping experience, with continuous support through excellent customer service. Our goal is to be your first destination for everything related to fashion and beauty, and we always strive to provide the best every time you shop with us.        </p>
+          Hilal Dubai is a company specializing in electronic products,
+          committed to offering a diverse range of high-quality technology
+          solutions. Based in Baghdad, we provide products such as routers,
+          fiber optic cables, laptops, and more to meet the needs of both
+          individuals and businesses. We believe in the importance of quality,
+          carefully selecting each product to ensure customer satisfaction. Our
+          goal is to make shopping for electronics easy and accessible, with
+          ongoing support through our excellent customer service. We strive to
+          be your first choice for all your technology needs, constantly
+          delivering the best with every purchase.
+        </p>
       </section>
 
       {/* History Section */}
@@ -25,7 +35,15 @@ const About = () => {
           History of the Brand
         </h2>
         <p className="text-lg text-gray-700 leading-relaxed max-w-2xl mx-auto text-center md:text-left">
-          Our brand was founded on a passion for fashion and beauty, with the aim of providing high-quality products that combine elegance and distinction. From the beginning, we have been committed to providing a variety of clothing and beauty products that meet the needs and tastes of our customers. We started out as a small company in Baghdad, and through dedication and focus on customer satisfaction, we have grown to become a trusted name in the industry. Today, we continue to evolve by offering the latest trends and the best products, while maintaining our core values ​​of excellence and customer service.        </p>
+          Hilal Dubai was born out of a passion for innovation and technology,
+          with the goal of providing top-quality electronic products that
+          combine reliability and performance. Starting as a small company in
+          Baghdad, our dedication to customer satisfaction and our focus on
+          providing cutting-edge products have allowed us to grow into a trusted
+          name in the electronics market. Today, we continue to evolve by
+          offering the latest technology solutions while staying true to our
+          core values of excellence and customer service.
+        </p>
       </section>
 
       {/* Promise Section */}
@@ -34,7 +52,14 @@ const About = () => {
           Our Promise
         </h2>
         <p className="text-lg text-gray-700 leading-relaxed max-w-2xl mx-auto text-center md:text-left">
-          Our promise is to provide high-quality clothing and beauty products that reflect the latest trends and meet our customers’ expectations. We are committed to providing exceptional service, ensuring a seamless shopping experience, and we constantly strive to improve our services to meet the changing needs of our customers. At the core of our brand is a commitment to quality, reliability and customer satisfaction, ensuring that every purchase adds value and satisfaction to our customers.        </p>
+          We promise to deliver high-quality electronic products that meet the
+          latest technological trends and fulfill our customers’ expectations.
+          We are committed to providing exceptional service and ensuring a
+          smooth and satisfying shopping experience. At the heart of our brand
+          is a dedication to quality, reliability, and customer satisfaction,
+          ensuring that every purchase adds value to our customers' lives and
+          helps them stay ahead in the fast-paced world of technology.
+        </p>
       </section>
     </div>
   );
