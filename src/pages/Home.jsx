@@ -34,7 +34,7 @@ const Home = () => {
             <div className="max-w-lg">
               <div className="h-1 w-10 bg-black mb-4"></div>
               <h1 className="font-bold text-4xl md:text-5xl mb-6">
-                Beirut Road Trading Company
+              Hilal Dubai General Trading Company Limited
               </h1>
               <p
                 className="text-lg text-gray-700 mb-6"
