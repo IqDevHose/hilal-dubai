@@ -4,18 +4,18 @@ const About = () => {
   return (
     <div className="min-h-screen bg-white">
       {/* Hero Section with Mini Image */}
-      <section className="container mx-auto px-6 py-16 text-center">
+      <section className="container mx-auto px-6 text-center">
         <div className="flex flex-col items-center mb-8">
-          {/* <img
-            src="/logo.png" // Ensure this path is correct based on your project structure
+          <img
+            src="/logo.svg" // Ensure this path is correct based on your project structure
             alt="About Us Hero"
-            className="w-64 h-48 object-cover rounded-full mb-6"
-          /> */}
+            className="w-72  object-cover rounded-full"
+          />
           <h1 className="text-4xl md:text-6xl font-bold text-gray-800">
             About Us
           </h1>
         </div>
-        <p className="text-lg text-gray-700 leading-relaxed max-w-2xl mx-auto text-center md:text-left">
+        <p className="text-lg text-gray-700 leading-relaxed max-w-2xl mx-auto text-left md:text-center">
           Hilal Dubai is a company specializing in electronic products,
           committed to offering a diverse range of high-quality technology
           solutions. Based in Baghdad, we provide products such as routers,
@@ -34,7 +34,7 @@ const About = () => {
         <h2 className="text-3xl font-semibold text-gray-800 mb-6 text-center">
           History of the Brand
         </h2>
-        <p className="text-lg text-gray-700 leading-relaxed max-w-2xl mx-auto text-center md:text-left">
+        <p className="text-lg text-gray-700 leading-relaxed max-w-2xl mx-auto text-left md:text-center">
           Hilal Dubai was born out of a passion for innovation and technology,
           with the goal of providing top-quality electronic products that
           combine reliability and performance. Starting as a small company in
@@ -51,7 +51,7 @@ const About = () => {
         <h2 className="text-3xl font-semibold text-gray-800 mb-6 text-center">
           Our Promise
         </h2>
-        <p className="text-lg text-gray-700 leading-relaxed max-w-2xl mx-auto text-center md:text-left">
+        <p className="text-lg text-gray-700 leading-relaxed max-w-2xl mx-auto text-left md:text-center">
           We promise to deliver high-quality electronic products that meet the
           latest technological trends and fulfill our customers’ expectations.
           We are committed to providing exceptional service and ensuring a

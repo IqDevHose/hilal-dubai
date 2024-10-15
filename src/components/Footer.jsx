@@ -5,13 +5,13 @@ import { FaPhone } from "react-icons/fa6";
 const Footer = () => {
   return (
     <footer className="bg-gray-900 text-gray-300 py-8">
-      <div className="container mx-auto flex flex-col md:flex-row justify-between items-center space-y-6 md:space-y-0 px-6">
+      <div className="container mx-auto flex flex-col md:flex-row justify-between items-start md:items-center space-y-6 md:space-y-0 px-6">
         {/* Left Section - Logo and Company Name */}
         <div className="flex items-center">
           <img
-            src="/logo2.png"
+            src="/logo.svg"
             alt="hilal Logo"
-            className="w-20 object-cover"
+            className="hidden md:flex md:w-40 object-cover"
           />
           <div>
             <h3 className="text-xl font-bold text-white mr-2">
@@ -24,21 +24,21 @@ const Footer = () => {
           </div>
         </div>
 
-        <div className="flex flex-col items-end">
+        <div className="flex flex-col items-stert">
           <div className="flex items-center gap-3 mt-3 ">
-            <a href="tel:123456789 964+">+964 7715325959</a>
             <FaPhone />
+            <a href="tel:123456789 964+">+964 7715325959</a>
           </div>
           <div className="flex items-center gap-3">
-            <a href="tel:123456789 964+">+964 7715325959</a>
             <FaPhone />
+            <a href="tel:123456789 964+">+964 7715325959</a>
           </div>
 
           <div className="flex items-center gap-3 mt-3">
+            <MdEmail />
             <a href="mailto: info@hilaldubaicompany.iq">
               <p>info@hilaldubaicompany.iq</p>
             </a>
-            <MdEmail />
           </div>
         </div>
       </div>

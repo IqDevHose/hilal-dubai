@@ -36,16 +36,16 @@ export function MyNavbar() {
   return (
     <nav className="sticky top-0 z-10 bg-white/80 backdrop-blur-md shadow-sm">
       {/* Adjusted padding */}
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-2">
+      <div className="max-w-7xl mx-auto pr-4 sm:pr-6 lg:pr-8 py-2">
         <div className="flex items-center justify-between h-20">
           {" "}
           {/* Increased height */}
           <div className="flex items-center">
             <Link to="/" className="flex-shrink-0">
               <img
-                src="/logo.png"
+                src="/logo.svg"
                 alt="hilal Logo"
-                className="w-52 object-cover"
+                className="w-44 md:w-52 object-cover"
               />
             </Link>
           </div>
