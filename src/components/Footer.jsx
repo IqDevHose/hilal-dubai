@@ -9,7 +9,7 @@ const Footer = () => {
         {/* Left Section - Logo and Company Name */}
         <div className="flex items-center">
           <img
-            src="/logo.svg"
+            src="/logo2.svg"
             alt="hilal Logo"
             className="hidden md:flex md:w-40 object-cover"
           />
