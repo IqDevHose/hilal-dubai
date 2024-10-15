@@ -4,7 +4,7 @@ import Masonry, { ResponsiveMasonry } from "react-responsive-masonry";
 
 const Gallery = () => {
   const startImageNumber = 34; // Starting image number
-  const endImageNumber = 52; // Ending image number
+  const endImageNumber = 83; // Ending image number
   const galleryImages = [];
 
   // Generate paths for images from 34 to 71
