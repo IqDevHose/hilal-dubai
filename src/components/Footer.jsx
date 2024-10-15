@@ -10,7 +10,7 @@ const Footer = () => {
         <div className="flex items-center">
           <img
             src="/logo2.png"
-            alt="beirut Logo"
+            alt="hilal Logo"
             className="w-20 object-cover"
           />
           <div>
@@ -35,8 +35,8 @@ const Footer = () => {
           </div>
 
           <div className="flex items-center gap-3 mt-3">
-            <a href="mailto:info@beirut-road.iq">
-              <p>info@Hilal-dubai.iq</p>
+            <a href="mailto: info@hilaldubaicompany.iq">
+              <p>info@hilaldubaicompany.iq</p>
             </a>
             <MdEmail />
           </div>

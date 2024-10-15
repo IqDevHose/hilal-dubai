@@ -6,11 +6,11 @@ const About = () => {
       {/* Hero Section with Mini Image */}
       <section className="container mx-auto px-6 py-16 text-center">
         <div className="flex flex-col items-center mb-8">
-          <img
+          {/* <img
             src="/logo.png" // Ensure this path is correct based on your project structure
             alt="About Us Hero"
             className="w-64 h-48 object-cover rounded-full mb-6"
-          />
+          /> */}
           <h1 className="text-4xl md:text-6xl font-bold text-gray-800">
             About Us
           </h1>
