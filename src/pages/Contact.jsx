@@ -19,7 +19,7 @@ const Contact = () => {
     e.preventDefault();
 
     // Construct the mailto link
-    const mailtoLink = `mailto:info@email.com?subject=Contact from ${formData.name}&body=Name: ${formData.name}%0AEmail: ${formData.email}%0APhone: ${formData.phone}%0A%0A${formData.message}`;
+    const mailtoLink = `mailto:info@hilaldubaicompany.iq?subject=Contact from ${formData.name}&body=Name: ${formData.name}%0AEmail: ${formData.email}%0APhone: ${formData.phone}%0A%0A${formData.message}`;
 
     // Open the mailto link to trigger the email client
     window.location.href = mailtoLink;
