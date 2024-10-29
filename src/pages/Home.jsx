@@ -167,7 +167,7 @@ const Home = () => {
         }}
       >
         <div className="absolute inset-0 bg-black opacity-60"></div>
-        <div className="relative z-10 text-center w-full">
+        <div className="relative text-center w-full">
           <h1 className="text-3xl md:text-5xl font-bold text-white mb-4">
             Contact us
           </h1>
